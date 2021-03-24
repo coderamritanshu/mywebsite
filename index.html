@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta UTF ="8">
 <head>
   <script type = "text/javascript">
+function love() {
 if(localStorage.hits){
 localStorage.hits=Number(localStorage.hits)+1;
 }
 else{
 localStorage.hits=1;
 }
-document.writeln("Views => "+localStorage.hits);
+document.writeln("Likes=> "+localStorage.hits);
+}
 </script>
 <title>Me</title>
 <meta charset="utf-8">
@@ -211,6 +214,7 @@ I have created two projects in two months are as follows as:
 <iframe src="https://practical-villani-c00603.netlify.app">Republic Day Celebration Website</iframe>
 <br/>
 <strong>Birthday Day Celebration Website</strong>
+  <br/>
 <iframe src="https://happybirthdaybhaiya.netlify.app" >Republic Day Celebration Website</iframe>
 <br/>
 <br/>
@@ -230,11 +234,17 @@ Email ID : keshariamritanshu@gmail.com
 <button class="a">Send Feedback
  
 </button>
-</a>											
+</a>	
+  <br/>
+<br/>
+<br/>
+<br/>
+  <button onclick ="love()">Like </button>
 </article>
 </section>
 <footer>
   <p>-By Amritanshu Keshari </p>
 </footer>
+<br/>
 </body>
 </html>
