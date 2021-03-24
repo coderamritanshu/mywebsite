@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script type = "text/javascript">
+if(localStorage.hits){
+localStorage.hits=Number(localStorage.hits)+1;
+}
+else{
+localStorage.hits=1;
+}
+document.writeln("Views => "+localStorage.hits);
+</script>
 <title>Me</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
